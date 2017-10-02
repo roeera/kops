@@ -14,6 +14,8 @@ Edit a resource configuration. This command changes the desired configuration in
   When you have done this, kops will use the editor that you have set.
   
   kops edit does not update the cloud resources, to apply the changes use "kops update cluster".
+  
+  Note: "--state" flag refers to kops config file and not to terraform tfstate file.
 
 ### Examples
 
